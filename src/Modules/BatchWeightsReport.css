@@ -1,0 +1,204 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff; /* White background */
+}
+
+.logo2 {
+  max-height: 50px;
+}
+
+.logo1 {
+  max-height: 120px;
+}
+
+.title {
+  flex: 1;
+  text-align: center;
+  font-size: 40px; /* Adjust the font size as needed */
+}
+
+.company-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.address {
+  font-size: 13px;
+  text-align: left;
+}
+
+.info-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.info-table td,
+.info-table th {
+  border: 1px solid #000000; /* Black border */
+  padding: 8px;
+  text-align: left;
+}
+
+.info-table .customer-cell,
+.info-table .client-cell,
+.info-table .site-cell,
+.info-table .vehicle-cell,
+.info-table .services-cell,
+.info-table .date-cell,
+.info-table .time-start-cell,
+.info-table .time-end-cell,
+.info-table .delivery-note-cell,
+.info-table .quantity-cell,
+.info-table .recipe-cell,
+.info-table .largest-grain-cell,
+.info-table .driver-cell,
+.info-table .ordered-cell {
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+.info-table .ordered-cell-sub {
+  text-align: right;
+}
+
+.property-table1 {
+  border-collapse: collapse;
+  margin: 50px 0;
+}
+
+.property-table1 th,
+.property-table1 td {
+  border: 1px solid #000000; /* Black border */
+  padding: 5px;
+  text-align: left;
+}
+
+.property-table1 th {
+  font-weight: normal; /* No bold text */
+}
+
+.property-table1 td {
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+.property-table,
+.weights-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 50px 0;
+}
+
+.property-table th,
+.weights-table th,
+.property-table td,
+.weights-table td {
+  border: 1px solid #000000; /* Black border */
+  text-align: center;
+  width: 3%; /* Equal width for all cells */
+}
+
+.property-table th,
+.weights-table th {
+  background-color: transparent; /* No background color */
+  font-weight: normal; /* No bold text */
+}
+
+.weights-table tr:nth-child(even) {
+  background-color: transparent; /* No background color for even rows */
+}
+
+.weights-table tr:nth-child(odd) {
+  background-color: transparent; /* No background color for odd rows */
+}
+
+.weights-table tr:last-child {
+  background-color: transparent; /* No background color for last row */
+}
+
+.info-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.info-table table {
+  width: 100%;
+}
+
+.info-table td {
+  border: 1px solid #000000; /* Black border */
+  padding: 8px; /* Add padding to the cells */
+  text-align: left; /* Align text to the left for better readability */
+}
+
+.info-table tr:nth-child(even) {
+  background-color: transparent; /* No background color for even rows */
+}
+
+.footer-content {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff; /* Light grey background */
+  padding: 10px;
+  text-align: left; /* Align text to the left */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+/* Button for PDF Generation */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Input fields styling */
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+@media print {
+  .pdf-button, .footer-content ~ * {
+    display: none;
+  }
+}

@@ -1,0 +1,48 @@
+.batch-report {  
+  padding: 20px;  
+  font-family: Arial, sans-serif;  
+}  
+
+.title {  
+  text-align: center;  
+  font-weight: bold;  
+  font-size: 24px;  
+  border: 1px solid #000000;  
+  border-bottom: none;  
+  padding: 10px;  
+  margin: 0; /* Remove margin between title and info section */  
+}  
+
+.info {  
+  display: flex;  
+  justify-content: space-between;  
+  border: 1px solid #000000;  
+  margin-top: -1px; /* Overlap border of title with info */  
+}  
+
+.info-section {  
+  width: 33%; /* Adjust width to fit the flex layout better */  
+}  
+
+.bold {  
+  font-weight: bold;  
+}  
+
+.report-table {  
+  width: 100%;   
+  margin-top: -1px; /* Overlap border of title with info */  
+  border-collapse: collapse;  
+  font-size: 14px;  
+}  
+
+.report-table th,  
+.report-table td {  
+  border: 1px solid black;  
+  padding: 8px;  
+  text-align: center;  
+  vertical-align: top; /* Align text to the top of the cell */  
+}  
+
+.report-table tfoot th {  
+  font-weight: bold;  
+}  

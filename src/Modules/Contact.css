@@ -1,0 +1,32 @@
+/* src/Pages/Contact.css */
+
+.contact-container {
+  max-width: 600px; /* Limit the width of the container */
+  margin: 50px auto; /* Center the container */
+  padding: 20px; /* Add padding */
+  background-color: #ffffff; /* White background for the contact section */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: center; /* Center text */
+}
+
+h1 {
+  color: #0b0b0b; /* Coral color for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+p {
+  color: #333; /* Dark gray text color */
+  font-size: 1.1em; /* Slightly larger font size */
+  line-height: 1.5; /* Improved line height for readability */
+}
+
+a {
+  color: #6FA3EF; /* Sky Blue for links */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #0e0d0d; /* Change color on hover */
+}
